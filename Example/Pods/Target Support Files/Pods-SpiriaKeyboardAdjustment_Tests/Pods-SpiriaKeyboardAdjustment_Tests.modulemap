@@ -1,0 +1,6 @@
+framework module Pods_SpiriaKeyboardAdjustment_Tests {
+  umbrella header "Pods-SpiriaKeyboardAdjustment_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

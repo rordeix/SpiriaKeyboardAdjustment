@@ -7,11 +7,11 @@
 //
 
 @import UIKit;
-#import "SpiriaAppDelegate.h"
+#import "AppDelegate.h"
 
 int main(int argc, char * argv[])
 {
     @autoreleasepool {
-        return UIApplicationMain(argc, argv, nil, NSStringFromClass([SpiriaAppDelegate class]));
+        return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
     }
 }

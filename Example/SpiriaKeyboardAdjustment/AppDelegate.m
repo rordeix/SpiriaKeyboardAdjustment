@@ -6,9 +6,9 @@
 //  Copyright (c) 2016 rordeix. All rights reserved.
 //
 
-#import "SpiriaAppDelegate.h"
+#import "AppDelegate.h"
 
-@implementation SpiriaAppDelegate
+@implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {

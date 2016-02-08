@@ -1,5 +1,5 @@
 //
-//  SpiriaAppDelegate.h
+//  SpiriaViewController.h
 //  SpiriaKeyboardAdjustment
 //
 //  Created by rordeix on 02/05/2016.
@@ -7,9 +7,10 @@
 //
 
 @import UIKit;
+@import SpiriaKeyboardAdjustment;
 
-@interface SpiriaAppDelegate : UIResponder <UIApplicationDelegate>
+@interface ViewController : UIViewController
 
-@property (strong, nonatomic) UIWindow *window;
+-(IBAction)hideKeyboardBtnPressed:(id)sender;
 
 @end

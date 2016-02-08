@@ -1,0 +1,6 @@
+framework module SpiriaKeyboardAdjustment {
+  umbrella header "SpiriaKeyboardAdjustment-umbrella.h"
+
+  export *
+  module * { export * }
+}

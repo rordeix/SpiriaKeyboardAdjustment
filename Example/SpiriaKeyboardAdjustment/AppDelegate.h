@@ -1,5 +1,5 @@
 //
-//  SpiriaViewController.h
+//  SpiriaAppDelegate.h
 //  SpiriaKeyboardAdjustment
 //
 //  Created by rordeix on 02/05/2016.
@@ -8,6 +8,8 @@
 
 @import UIKit;
 
-@interface SpiriaViewController : UIViewController
+@interface AppDelegate : UIResponder <UIApplicationDelegate>
+
+@property (strong, nonatomic) UIWindow *window;
 
 @end
