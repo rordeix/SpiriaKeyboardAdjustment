@@ -1,5 +1,5 @@
 # SpiriaKeyboardAdjustment
-At some point every mobile developer has to deal with the struggle of the keybard and the screen layout.
+At some point every mobile developer has to deal with the struggle of the keyboard and the screen layout.
 Usually you have only a few screens so you probably just copy/paste the code to do it (register to keyboard notifications, and change the frame of the main view or just a constraint to the bottom of the main view). This extension does all those things for you :), automatically register to the notifications and when the keyboard appears it changes the frame of the main view or optionally modify the value of a constraint (bottom constraint to the main view). You only need to install the pod and import the library on your view controller, that's all.
 If you don't want to resize the view on a given view controller but you already have this library included just override the property ```shouldAutoAdjustScreen``` and return NO:
 ```objective-c
@@ -8,7 +8,7 @@ If you don't want to resize the view on a given view controller but you already 
 }
 ```
 
-If you want to use a constraint to the main view instead of resize the controller view, you can assign the constraint from the UIBuilder to the ```adjustBottomConstraint``` property, or just implements its getter method with the constraint you want.
+If you want to use a constraint to the main view instead of resize the controller view, you can assign the constraint from the UIBuilder to the ```adjustBottomConstraint``` property, or just implement its getter method with the constraint you want.
 
 ![Demo](https://j.gifs.com/W6qXBx.gif)
 
