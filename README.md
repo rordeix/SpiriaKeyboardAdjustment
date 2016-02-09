@@ -10,6 +10,9 @@ If you don't want to resize the view on a given view controller but you already 
 
 If you want to use a constraint to the main view instead of resize the controller view, you can assign the constraint from the UIBuilder to the ```adjustBottomConstraint``` property, or just implements its getter method with the constraint you want.
 
+[![Demo](http://i.imgur.com/b9CZNxl.gifv)](http://i.imgur.com/b9CZNxl.gifv)
+
+
 [![Version](https://img.shields.io/cocoapods/v/SpiriaKeyboardAdjustment.svg?style=flat)](http://cocoapods.org/pods/SpiriaKeyboardAdjustment)
 [![License](https://img.shields.io/cocoapods/l/SpiriaKeyboardAdjustment.svg?style=flat)](http://cocoapods.org/pods/SpiriaKeyboardAdjustment)
 [![Platform](https://img.shields.io/cocoapods/p/SpiriaKeyboardAdjustment.svg?style=flat)](http://cocoapods.org/pods/SpiriaKeyboardAdjustment)
