@@ -117,6 +117,7 @@ static char const * const kKeyboardAdjustmentAdjustBottomConstraint = "kKeyboard
 }
 
 -(void)keyboardAdjustmentViewWillDisappear:(BOOL)animated {
+    [self.view endEditing:YES];
     [self keyboardAdjustmentViewWillDisappear:animated];
     [[NSNotificationCenter defaultCenter] removeObserver:self name:UIKeyboardWillHideNotification object:nil];
     [[NSNotificationCenter defaultCenter] removeObserver:self name:UIKeyboardWillShowNotification object:nil];
