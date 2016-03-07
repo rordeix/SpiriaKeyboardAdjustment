@@ -17,4 +17,9 @@
 -(IBAction)hideKeyboardBtnPressed:(id)sender {
     [self.view endEditing:YES];
 }
+
+-(BOOL)shouldAutoAdjustScreen {
+    return YES;
+}
+
 @end
