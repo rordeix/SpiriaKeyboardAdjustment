@@ -58,7 +58,7 @@ static char const * const kKeyboardAdjustmentAdjustBottomConstraint = "kKeyboard
 }
 
 -(BOOL)shouldAutoAdjustScreen {
-    return YES;
+    return NO;
 }
 
 #pragma mark - Method Swizzling

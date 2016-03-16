@@ -19,7 +19,7 @@
 }
 
 -(BOOL)shouldAutoAdjustScreen {
-    return YES;
+    return NO;
 }
 
 @end
