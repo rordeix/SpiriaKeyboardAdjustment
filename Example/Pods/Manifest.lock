@@ -1,5 +1,5 @@
 PODS:
-  - SpiriaKeyboardAdjustment (0.1.0)
+  - SpiriaKeyboardAdjustment (1.0.3)
 
 DEPENDENCIES:
   - SpiriaKeyboardAdjustment (from `../`)
@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  SpiriaKeyboardAdjustment: 6b03b3f8e71de449c693d6f0061a11c5a3e0f5a2
+  SpiriaKeyboardAdjustment: 571f88ac833e89d5c75d71a787278c4ccd1179a2
 
 COCOAPODS: 0.39.0

@@ -11,4 +11,6 @@
 @interface UIViewController (SpiriaKeyboardAdjustment)
 @property(strong,nonatomic) IBOutlet NSLayoutConstraint *adjustBottomConstraint;
 @property(readonly) BOOL shouldAutoAdjustScreen;
+-(void)keyboardWillShow:(NSNotification*)notification;
+-(void)keyboardWillHide:(NSNotification*)notification;
 @end

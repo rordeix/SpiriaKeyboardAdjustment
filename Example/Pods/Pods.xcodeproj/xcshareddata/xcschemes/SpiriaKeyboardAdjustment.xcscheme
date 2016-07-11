@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'BE85C27A6186EB599BD496E7'
+               BlueprintIdentifier = '80B86F42C4253650F2901BF3'
                BlueprintName = 'SpiriaKeyboardAdjustment'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'SpiriaKeyboardAdjustment.framework'>
