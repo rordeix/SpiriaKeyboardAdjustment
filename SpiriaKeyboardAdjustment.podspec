@@ -22,21 +22,11 @@ If you do not want to resize the view on a given view controller but you already
 If you want to use a constraint to the main view instead of resize the controller view, you can assign the constraint from the UIBuilder to the adjustBottomConstraint property, or just implements its getter method with the constraint you want.'
 
   s.homepage         = "https://github.com/rordeix/SpiriaKeyboardAdjustment"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "rordeix" => "rordeix@spiria.com.uy" }
   s.source           = { :git => "https://github.com/rordeix/SpiriaKeyboardAdjustment.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
   s.platform     = :ios, '7.0'
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes/**/*'
-  s.resource_bundles = {
-    'SpiriaKeyboardAdjustment' => ['Pod/Assets/*.png']
-  }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end
