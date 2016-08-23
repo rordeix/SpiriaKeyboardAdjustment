@@ -94,13 +94,15 @@ static char const * const kKeyboardAdjustmentAdjustBottomConstraint = "kKeyboard
 }
 
 -(void)keyboardAdjustmentViewDidLoad {
-    [self keyboardAdjustmentViewDidLoad];
+  [self keyboardAdjustmentViewDidLoad];
+  if (self.shouldAutoAdjustScreen) {
     if (self.adjustBottomConstraint) {
-        self.originalBottomConstraintValue = self.adjustBottomConstraint.constant;
+      self.originalBottomConstraintValue = self.adjustBottomConstraint.constant;
     } else {
-        self.originalBottomConstraintValue = 0.0;
+      self.originalBottomConstraintValue = 0.0;
     }
     self.originalViewFrame = self.view.frame;
+  }
 }
 
 -(void)keyboardAdjustmentViewWillAppear:(BOOL)animated {

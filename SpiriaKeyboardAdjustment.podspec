@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "SpiriaKeyboardAdjustment"
-  s.version          = "1.0.4"
+  s.version          = "1.0.5"
   s.summary          = "Adjust the view controller main view frame when the keyboard appears and disappears."
 
 # This description is used to generate tags and improve search results.
